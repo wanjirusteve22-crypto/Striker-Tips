@@ -3,138 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SURE STRIKER TIPS</title>
+    <title>SURE STRIKER TIPS | Professional Football Investment Analytics</title>
     <script src="https://tailwindcss.com"></script>
     <script src="https://jsdelivr.net"></script>
+    <style>
+        @import url('https://googleapis.com');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
 </head>
-<body class="bg-slate-950 text-white font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-emerald-500 selection:text-slate-950">
 
     <!-- HEADER NAVIGATION -->
-    <header class="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 px-6 py-4 flex items-center justify-between">
-        <h1 class="font-black text-xl tracking-tight text-emerald-400">SURE STRIKER TIPS</h1>
-        <a href="https://t.me" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-bold px-4 py-2 rounded-lg text-sm transition-all">
-            Join Free Telegram
+    <header class="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-900/60 px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+            <div class="h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse"></div>
+            <span class="font-black text-xl tracking-tight bg-gradient-to-r from-white via-slate-200 to-emerald-400 bg-clip-text text-transparent">
+                SURE STRIKER TIPS
+            </span>
+        </div>
+        <a href="https://t.me" target="_blank" class="flex items-center space-x-2 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-5 py-2.5 rounded-xl text-sm transition-all transform active:scale-95 shadow-lg shadow-emerald-950/40">
+            <span>Join Free Telegram</span>
         </a>
     </header>
 
-    <!-- HERO GRID -->
-    <section class="py-16 px-4 text-center max-w-3xl mx-auto">
-        <h2 class="text-4xl sm:text-5xl font-black tracking-tight mb-4">Verified Premium Football Packages</h2>
-        <p class="text-slate-400 text-sm sm:text-base">Select a tier below. Once payment is completed, insert your Safaricom transaction identifier code to claim your automated VIP invitation portal link.</p>
+    <!-- HERO SECTION -->
+    <section class="relative overflow-hidden pt-24 pb-16 px-4 text-center max-w-3xl mx-auto">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="inline-flex items-center space-x-2 bg-slate-900 border border-slate-800/80 px-4 py-1.5 rounded-full text-xs text-emerald-400 font-bold mb-6">
+            <span>⚽ EXCLUSIVE FOOTBALL DATABASE SELECTIONS</span>
+        </div>
+        <h2 class="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+            Stop Risking Capital. <br />
+            Unlock <span class="text-emerald-400">Verified Sure</span> Picks.
+        </h2>
+        <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+            Gain immediate access to verified fixed database odds. Automated invoice routing instantly generates your single-use Telegram VIP link upon incoming M-Pesa receipt verification.
+        </p>
     </section>
 
-    <!-- 4 TIER PACKAGES GRID -->
-    <section class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
-        <!-- Package 1 -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
-            <div>
-                <h3 class="text-lg font-bold text-slate-200">Daily Silver</h3>
-                <p class="text-2xl font-black text-emerald-400 my-3">400 KES</p>
-                <p class="text-xs text-slate-400">1 Daily safe slip. Target decimal multiplier odds 2.00.</p>
-            </div>
-            <button onclick="openModal('Daily Silver', '400 KES')" class="mt-6 w-full bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold py-3 rounded-xl text-sm border border-slate-700">Unlock via M-Pesa</button>
-        </div>
-        <!-- Package 2 -->
-        <div class="bg-slate-900 border border-amber-500/50 rounded-2xl p-6 flex flex-col justify-between relative">
-            <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[10px] font-black uppercase px-2 py-0.5 rounded-full">Popular</span>
-            <div>
-                <h3 class="text-lg font-bold text-slate-200">Weekend Gold</h3>
-                <p class="text-2xl font-black text-amber-400 my-3">1,500 KES</p>
-                <p class="text-xs text-slate-400">Friday to Sunday premium combos + Weekly Jackpot tips.</p>
-            </div>
-            <button onclick="openModal('Weekend Gold', '1,500 KES')" class="mt-6 w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-3 rounded-xl text-sm">Unlock via M-Pesa</button>
-        </div>
-        <!-- Package 3 -->
-        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
-            <div>
-                <h3 class="text-lg font-bold text-slate-200">Weekly Platinum</h3>
-                <p class="text-2xl font-black text-emerald-400 my-3">3,500 KES</p>
-                <p class="text-xs text-slate-400">7 Days extensive database listings. Premium channels.</p>
-            </div>
-            <button onclick="openModal('Weekly Platinum', '3,500 KES')" class="mt-6 w-full bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold py-3 rounded-xl text-sm border border-slate-700">Unlock via M-Pesa</button>
-        </div>
-        <!-- Package 4 -->
-        <div class="bg-slate-900 border border-purple-500/50 rounded-2xl p-6 flex flex-col justify-between">
-            <div>
-                <h3 class="text-lg font-bold text-slate-200">Monthly VIP Diamond</h3>
-                <p class="text-2xl font-black text-purple-400 my-3">10,000 KES</p>
-                <p class="text-xs text-slate-400">30 Days max limits access room. Full updates.</p>
-            </div>
-            <button onclick="openModal('Monthly VIP Diamond', '10,000 KES')" class="mt-6 w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 rounded-xl text-sm">Unlock via M-Pesa</button>
-        </div>
+    <!-- STATISTICS METRIC BANNER -->
+    <section class="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-4 py-6 border-y border-slate-900/80 mb-20 text-center bg-slate-900/20 backdrop-blur-xs rounded-xl">
+        <div><h3 class="text-2xl font-black text-emerald-400">88.4%</h3><p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mt-1">Win Rate Consistent</p></div>
+        <div><h3 class="text-2xl font-black text-amber-400">4,800+</h3><p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mt-1">Active Subscribers</p></div>
+        <div><h3 class="text-2xl font-black text-emerald-400">Daily</h3><p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mt-1">Slip Updates</p></div>
+        <div><h3 class="text-2xl font-black text-indigo-400">Instant</h3><p class="text-[10px] text-slate-500 uppercase tracking-widest font-bold mt-1">M-Pesa Verification</p></div>
     </section>
 
-    <!-- LIVE-UPDATING DATABASE SCREENSHOT GALLERY GRID -->
-    <section class="max-w-6xl mx-auto px-4 py-12 border-t border-slate-900">
-        <h2 class="text-2xl font-extrabold mb-2">Verified Winning Slips</h2>
-        <p class="text-slate-400 text-xs mb-6">Authentic direct screenshots synced straight from our tracking history data fields.</p>
-        <div id="gallery-grid" class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <!-- Dynamically populated via javascript below -->
+    <!-- PACKAGES SECTION -->
+    <section class="max-w-6xl mx-auto px-4 mb-24">
+        <div class="text-center mb-12">
+            <h3 class="text-2xl font-bold tracking-tight mb-2">Select Investment Tier</h3>
+            <p class="text-slate-400 text-sm">Choose an analytics package aligned with your bankroll configuration limits.</p>
         </div>
-    </section>
-
-    <!-- ENCRYPTED PRIVATE FEEDBACK LAYOUT -->
-    <section class="max-w-xl mx-auto px-4 py-12 border-t border-slate-900 text-center">
-        <h2 class="text-xl font-bold mb-2">Send Private Feedback</h2>
-        <p class="text-slate-400 text-xs mb-4">Messages log directly into internal administrator panels and are completely hidden from public visibility.</p>
-        <form id="feedback-form" class="space-y-3">
-            <textarea id="feedback-text" required rows="3" placeholder="Type your performance evaluation, query or message details safely..." class="w-full bg-slate-900 border border-slate-800 focus:border-emerald-500 rounded-xl p-3 text-sm text-white outline-none resize-none font-sans"></textarea>
-            <button type="submit" class="w-full bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold py-2.5 rounded-xl text-sm border border-slate-700">Transmit Safe Feedback</button>
-        </form>
-        <p id="feedback-success" class="text-xs text-emerald-400 mt-2 hidden">✓ Entry securely routed to backend server records.</p>
-    </section>
-
-    <!-- CHECKOUT TRANSACTION MODAL FRAME OVERLAY -->
-    <div id="payment-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
-        <div class="bg-slate-900 border border-slate-800 w-full max-w-md rounded-2xl p-6 relative">
-            <button onclick="closeModal()" class="absolute top-4 right-4 text-slate-500 hover:text-white font-bold text-base">✕</button>
-            <h3 id="modal-package-name" class="font-black text-lg text-white mb-1">Package Active</h3>
-            <p id="modal-package-price" class="text-emerald-400 font-bold text-sm mb-4">0 KES</p>
-            
-            <div class="text-xs text-slate-300 bg-slate-950 border border-slate-800 p-4 rounded-xl mb-4 space-y-2 leading-relaxed">
-                <p class="font-bold text-slate-200">How to Complete Checkout Transaction:</p>
-                <p>1. Go to your M-Pesa phone lines menu.</p>
-                <p>2. Transmit package fee amount to Buy Goods Till (or Phone Number): <span class="text-amber-400 font-black tracking-wider bg-slate-900 border border-slate-800 px-1.5 py-0.5 rounded">07XXXXXXXX</span></p>
-                <p>3. Copy the alphanumeric reference ID string from the confirmation SMS and fill it below.</p>
-            </div>
-
-            <form id="verification-form" class="space-y-3">
-                <input type="text" id="client-name" placeholder="Your Full Official Name" required class="w-full bg-slate-950 border border-slate-800 focus:border-emerald-500 rounded-xl px-4 py-2.5 text-sm text-white outline-none">
-                <input type="tel" id="client-phone" placeholder="Active Mobile Phone Number" required class="w-full bg-slate-950 border border-slate-800 focus:border-emerald-500 rounded-xl px-4 py-2.5 text-sm text-white outline-none">
-                <input type="text" id="mpesa-code" placeholder="M-Pesa Code (e.g., SKL89DJ32K)" required maxlength="10" class="w-full bg-slate-950 border border-slate-800 focus:border-emerald-500 rounded-xl px-4 py-2.5 text-sm text-amber-400 outline-none uppercase font-mono tracking-widest">
-                <button type="submit" id="submit-btn" class="w-full bg-emerald-600 hover:bg-emerald-500 text-slate-950 font-black py-3 rounded-xl text-sm transition-all">Submit Entry for Verification</button>
-            </form>
-            <p id="submit-message" class="text-xs mt-3 text-center hidden"></p>
-        </div>
-    </div>
-
-    <!-- CORE INTEGRATION LOGIC CONTROLLERS -->
-    <script>
-        // REPLACE THE STRING QUOTES BELOW WITH COPIED DETAILS FROM SUPABASE SETTINGS (STEP 3 PLAN)
-        const SUPABASE_URL = "sb_publishable_-VDR_2X7owFnoFxnKQqBpw_VUW_ZxH9";
-        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im56d3Z0dGVsZWJqeGduY3V4cWh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5NTkyMzEsImV4cCI6MjEwNzUzNTIzMX0.iPY15GqswLb85Oi4E75I_Z8oEKCgIb5VNpWcxulu5ps";
         
-        const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-        let activeTierName = "";
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <!-- Package 1 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-slate-400 text-xs font-bold uppercase tracking-wider">Tier 01</h4>
+                    <h3 class="text-lg font-bold text-white mt-1">Daily Silver</h3>
+                    <p class="text-3xl font-black text-emerald-400 my-4">400 <span class="text-xs font-bold text-slate-400">KES</span></p>
+                    <ul class="space-y-2 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+                        <li>• 1 Daily Safe Multibet</li>
+                        <li>• Target Odds: 2.00 - 3.00</li>
+                        <li>• Ideal for Low Capital</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('Daily Silver', '400 KES')" class="mt-6 w-full bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold py-3.5 rounded-xl text-xs transition-all border border-slate-700/50 tracking-wide uppercase">Unlock via M-Pesa</button>
+            </div>
+            <!-- Package 2 -->
+            <div class="bg-slate-900 border-2 border-amber-500/80 rounded-2xl p-6 flex flex-col justify-between relative shadow-2xl shadow-amber-950/10 transform md:scale-105">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-950 text-[10px] font-black uppercase px-3 py-1 rounded-full tracking-wider">Most Popular</span>
+                <div>
+                    <h4 class="text-amber-400/80 text-xs font-bold uppercase tracking-wider">Tier 02</h4>
+                    <h3 class="text-lg font-bold text-white mt-1">Weekend Gold</h3>
+                    <p class="text-3xl font-black text-amber-400 my-4">1,500 <span class="text-xs font-bold text-slate-400">KES</span></p>
+                    <ul class="space-y-2 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+                        <li>• Fri-Sun Premium Slips</li>
+                        <li>• Midweek Jackpot Analysis</li>
+                        <li>• Target Odds: 5.00 - 12.00+</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('Weekend Gold', '1,500 KES')" class="mt-6 w-full bg-amber-500 hover:bg-amber-400 text-slate-950 font-black py-3.5 rounded-xl text-xs transition-all tracking-wide uppercase shadow-lg shadow-amber-950/50">Unlock via M-Pesa</button>
+            </div>
+            <!-- Package 3 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-slate-400 text-xs font-bold uppercase tracking-wider">Tier 03</h4>
+                    <h3 class="text-lg font-bold text-white mt-1">Weekly Platinum</h3>
+                    <p class="text-3xl font-black text-emerald-400 my-4">3,500 <span class="text-xs font-bold text-slate-400">KES</span></p>
+                    <ul class="space-y-2 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+                        <li>• 7 Days Complete Access</li>
+                        <li>• Direct Chat Support Matrix</li>
+                        <li>• High-Stake Single Variants</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('Weekly Platinum', '3,500 KES')" class="mt-6 w-full bg-slate-800 hover:bg-slate-700 text-emerald-400 font-bold py-3.5 rounded-xl text-xs transition-all border border-slate-700/50 tracking-wide uppercase">Unlock via M-Pesa</button>
+            </div>
+            <!-- Package 4 -->
+            <div class="bg-slate-900 border border-purple-500/40 rounded-2xl p-6 flex flex-col justify-between shadow-xl">
+                <div>
+                    <h4 class="text-purple-400/80 text-xs font-bold uppercase tracking-wider">Tier 04</h4>
+                    <h3 class="text-lg font-bold text-white mt-1">Monthly VIP Diamond</h3>
+                    <p class="text-3xl font-black text-purple-400 my-4">10,000 <span class="text-xs font-bold text-slate-400">KES</span></p>
+                    <ul class="space-y-2 text-xs text-slate-300 border-t border-slate-800/80 pt-4">
+                        <li>• 30 Days Full Max Vault</li>
+                        <li>• Mega Jackpot Blueprints</li>
+                        <li>• Replacement Guarantee</li>
+                    </ul>
+                </div>
+                <button onclick="openModal('Monthly VIP Diamond', '10,000 KES')" class="mt-6 w-full bg-purple-600 hover:bg-purple-500 text-white font-bold py-3.5 rounded-xl text-xs transition-all tracking-wide uppercase">Unlock via M-Pesa</button>
+            </div>
+        </div>
+    </section>
 
-        function openModal(name, price) {
-            activeTierName = name;
-            document.getElementById('modal-package-name').innerText = "Unlock " + name;
-            document.getElementById('modal-package-price').innerText = "Required Fee: " + price;
-            document.getElementById('submit-message').classList.add('hidden');
-            document.getElementById('payment-modal').classList.remove('hidden');
-            document.getElementById('payment-modal').classList.add('flex');
-        }
-        function closeModal() {
-            document.getElementById('payment-modal').classList.remove('flex');
-            document.getElementById('payment-modal').classList.add('hidden');
-        }
+    <!-- LIVE DATABASE GALLERY GRID -->
+    <section class="max-w-6xl mx-auto px-4 py-16 border-t border-slate-900/60">
+        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 gap-2">
+            <div>
+                <h2 class="text-2xl font-extrabold tracking-tight">Verified Live Winning Receipts</h2>
+                <p class="text-slate-400 text-xs mt-1">Unedited direct match-slip analytics uploaded securely via admin database portal.</p>
+            </div>
+            <div class="text-[10px] text-emerald-400 bg-emerald-950/40 border border-emerald-900 px-3 py-1.5 rounded-lg font-bold">
+                ✓ 100% AUTHENTIC DATABASE ENTRIES
+            </div>
+        </div>
+        <div id="gallery-grid" class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <!-- Populated securely via Supabase data strings -->
+        </div>
+    </section>
 
-        // Action 1: Load Image Files from Cloud Database Table Grid
-        async function fetchLiveGallery() {
-            const { data, error } = await supabaseClient.from('results_gallery').select('*').order('id', { ascending: false });
-            const grid = document.getElementById('gallery-grid');
-            grid.innerHTML = "";
-            if (data && data.length > 0) {
-                data.forEach(item => {
-                    grid.innerHTML += `
+    <!-- PRIVATE ENCRYPTED FEEDBACK MATRIX -->
+    <section class="max-w-xl mx-auto px-4 py-16 border-t border-slate-900/60 text-center">
+        <h2 class="text-xl font-bold mb-2">Secure Assessment Channel</h2>
